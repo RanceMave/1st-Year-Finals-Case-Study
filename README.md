@@ -1,4 +1,4 @@
-Instructions for the code
+Instructions for writing the code:
 
  The constructor allows the user to set the status of the student as “Regular” or “Irregular”.
  Make sure that the method setGender()only accepts ‘M’ and ‘F’ as code. Allow the user to be
@@ -12,3 +12,18 @@ status, full word for gender as ‘M’ for MALE, and ‘F’ for FEMALE. Also, 
 the full word of the level, as ‘1’ Freshman, ‘2’ Sophomore, ‘3’ Junior, ‘4’ Senior, and ‘5’ ‘Fifth
 Year and Beyond’.
  In testing the class, create an object of the Student class.
+
+- studentID : int
+- status : String
+- gender : char
+- assist : double
+- level : char
++ Student(String)
++ setGender(char) : void
++ getGender() : char
++ setLevel(char) : void
++ getLevel() : char
++ setStudentID(int) : void
++ getStudentID() : int
++ getAssist() : double
++ print() : void
